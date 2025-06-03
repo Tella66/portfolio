@@ -5584,6 +5584,21 @@ body.loaded {
 .text-dark .dot-list li:before {
   background: #1a1a1a;
 }
+}@media (max-width: 768px) {
+  .mobile-center-img {
+    display: flex;
+    justify-content: center; /* change to flex-end to move it to the right */
+    align-items: center;
+    padding-left: 30px;
+  }
+
+  .mobile-center-img img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+}
+
 
 /* Footer
 -----------------------------------------------------------------*/
