@@ -6833,6 +6833,20 @@ footer.clean-footer.crev:before {
   -ms-transform: translateY(100px);
   transform: translateY(100px);
 }
+@media (max-width: 768px) {
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 
 .portfolio-tab.crev .glry-img .bg-img:after, .portfolio-tab.crev .glry-img .bg-img:before {
   content: '';
