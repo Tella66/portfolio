@@ -1452,6 +1452,19 @@ img.left {
 .radius-25 {
   border-radius: 25px !important;
 }
+@media (max-width: 768px) {
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 .radius-30 {
   border-radius: 30px !important;
