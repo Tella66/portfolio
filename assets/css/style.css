@@ -1139,6 +1139,7 @@ figure {
 .main-marq .box .item h4 {
   white-space: nowrap;
   margin: 0;
+    padding-top: 40px;
 }
 
 .main-marq .box .item h4 .icon {
@@ -6351,6 +6352,7 @@ footer.clean-footer.crev:before {
 
   .sec-head h2 {
     font-size: 28px;
+      margin-top: 70px;
   }
 }
 @keyframes fadeInUp {
